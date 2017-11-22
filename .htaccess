@@ -1,0 +1,15 @@
+# Le serveur doit suivre les liens symboliques :
+Options +FollowSymlinks
+RewriteEngine On
+RewriteBase /mandalorien/Generateur/
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+# Dossier :
+RewriteRule images/(.*)  ressources/static/img/$1 [L]
+RewriteRule avatar/(.*)  ressources/static/img/avatar/$1 [L]
+RewriteRule styles/(.*)  ressources/static/css/$1 [L]
+RewriteRule scripts/(.*)  ressources/static/scripts/$1 [L]
+RewriteRule jquery/(.*)  ressources/static/jquery/$1 [L]
+RewriteRule polices/(.*)  ressources/static/police/$1 [L]

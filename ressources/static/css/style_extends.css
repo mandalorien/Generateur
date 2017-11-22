@@ -1,0 +1,210 @@
+body{text-align:center}.maw{margin:auto;padding:auto;width:150px;height:auto;text-align:center}.maw img{margin:auto;padding:auto;border-radius:10px;box-shadow:2px 2px 10px #000;margin:5px;padding:5px;width:60%;border:5px solid #444}.colorisation{color:#474949}.container{margin:0 auto;max-width:1060px}h2 span{position:relative;padding-bottom:10px}h2 span:after{content:"";width:50%;height:3px;background-color:#fff;position:absolute;left:25%;bottom:0}*{margin:0;padding:0;box-sizing:border-box}.text-desc{position:absolute;left:0;top:0;height:100%;opacity:0;width:100%;padding:20px;text-align:left}.port-1{float:left;width:100%;position:relative;overflow:hidden;text-align:center;border:4px solid rgba(255,255,255,0.9)}.port-1 .text-desc{opacity:.9;top:-100%;transition:.5s;color:#000;padding:45px 20px 20px}.port-1 img{transition:.5s}.port-1:hover img{transform:scale(1.2)}.port-1.effect-1:hover .text-desc{top:0}.port-1.effect-2 .text-desc{top:auto;bottom:-100%}.port-1.effect-2:hover .text-desc{bottom:0}.port-1.effect-3 .text-desc{top:50%;left:50%;width:0;height:0;overflow:hidden;padding:0}.port-1.effect-3:hover .text-desc{width:100%;top:0;left:0;height:100%;padding:45px 20px 20px}.port-2{float:left;width:100%;position:relative;overflow:hidden;text-align:center;perspective:800px}.port-2 .text-desc{z-index:-1;transition:.6s}.port-2 .image-box{transition:.4s}.port-2:hover .image-box{transform:rotateX(80deg);transform-origin:center bottom 0;transition:.4s}.port-2.effect-1:hover .text-desc{opacity:1}.port-2.effect-2 .text-desc{opacity:1;top:-100%}.port-2.effect-2:hover .text-desc{top:0}.port-2.effect-3 .text-desc{opacity:1;top:auto;bottom:-100%}.port-2.effect-3:hover .text-desc{bottom:0}.port-3{float:left;width:100%;position:relative;overflow:hidden;text-align:center;border:4px solid rgba(255,255,255,0.9);perspective:500px}.port-3 img{transition:.5s}.port-3.effect-1 .text-desc{z-index:-1;transition:.5s;transform:rotateX(80deg);transform-origin:center top 0;padding:45px 20px 20px;opacity:1}.port-3.effect-1:hover .text-desc{transform:none}.port-3.effect-1:hover img{opacity:0;transform:scale(1.2)}.port-3.effect-2 .text-desc{z-index:-1;transition:.5s;transform:rotateX(80deg);transform-origin:center bottom 0;top:auto;bottom:0;padding:45px 20px 20px}.port-3.effect-2:hover .text-desc{transform:none;opacity:1}.port-3.effect-2:hover img{transform:translateY(-100%)}.port-3.effect-3 .text-desc{z-index:-1;transition:.5s;transform:rotateX(80deg);transform-origin:center top 0;padding:45px 20px 20px}.port-3.effect-3:hover .text-desc{transform:none;opacity:1}.port-3.effect-3:hover img{transform:translateY(100%)}.port-4{float:left;width:100%;position:relative;overflow:hidden;text-align:center;border:4px solid rgba(255,255,255,0.9);z-index:10}.port-4.effect-1 img{transition:.5s;transform:rotateY(360deg) scale(1,1)}.port-4.effect-1 .text-desc{transform:rotateY(0deg) scale(0,0);transition:.5s;opacity:0;padding:45px 20px 20px}.port-4.effect-1:hover .text-desc{transform:rotateY(360deg) scale(1,1);opacity:1}.port-4.effect-1:hover img{transform:rotateY(0deg) scale(0,0)}.port-4.effect-2{z-index:12}.port-4.effect-2 img{transition:.5s;transform:rotateX(360deg) scale(1,1)}.port-4.effect-2 .text-desc{transform:rotateX(0deg) scale(0,0);transition:.5s;opacity:0;padding:45px 20px 20px}.port-4.effect-2:hover .text-desc{transform:rotateX(360deg) scale(1,1);opacity:1}.port-4.effect-2:hover img{transform:rotateX(0deg) scale(0,0)}.port-4.effect-3 img{transition:.5s;transform:rotate(360deg) scale(1,1)}.port-4.effect-3 .text-desc{transform:rotate(0deg) scale(0,0);transition:.5s;opacity:0;padding:45px 20px 20px}.port-4.effect-3:hover .text-desc{transform:rotate(360deg) scale(1,1);opacity:1}.port-4.effect-3:hover img{transform:rotate(0deg) scale(0,0)}.port-5{float:left;width:100%;position:relative;overflow:hidden;text-align:center;border:4px solid rgba(255,255,255,0.9);overflow:visible}.port-5.effect-1{z-index:9}.port-5.effect-1 img{transition:.5s}.port-5.effect-1:hover img{transform:scale(0.5) translateX(-100%);position:relative;z-index:9;border:6px solid rgba(255,255,255,0.9)}.port-5.effect-1 .text-desc{transform:translateX(100%);opacity:0;padding:40px 20px 20px 90px;transition:.5s}.port-5.effect-1:hover .text-desc{transform:translateX(0px);opacity:1}.port-5.effect-2{z-index:10}.port-5.effect-2 img{transition:.5s;transform:none}.port-5.effect-2:hover img{transform:scale(0.5) translateY(100%);position:relative;z-index:9;border:6px solid rgba(255,255,255,0.9)}.port-5.effect-2 .text-desc{transform:translateY(-100%);opacity:0;padding:20px;transition:.5s}.port-5.effect-2:hover .text-desc{transform:translateY(0px);opacity:1}.port-5.effect-3 img{transition:.5s}.port-5.effect-3:hover img{transform:scale(0.5) translateX(100%);position:relative;z-index:9;border:6px solid rgba(255,255,255,0.9)}.port-5.effect-3 .text-desc{transform:translateX(-100%);opacity:0;padding:40px 90px 20px 20px;transition:.5s}.port-5.effect-3:hover .text-desc{transform:translateX(0px);opacity:1}.port-6{float:left;width:100%;position:relative;overflow:hidden;text-align:center;border:4px solid rgba(255,255,255,0.9);overflow:visible}.port-6.effect-1{z-index:8}.port-6.effect-1 img{transition:.5s}.port-6.effect-1:hover img{transform:scale(0.3) translateY(110%);position:relative;z-index:9}.port-6.effect-1 .text-desc{transform:translateY(-100%);opacity:0;padding:10px 20px;transition:.5s}.port-6.effect-1:hover .text-desc{transform:translateY(0px);opacity:1}.port-6.effect-2{z-index:7}.port-6.effect-2 img{transition:.6s;z-index:1}.port-6.effect-2:hover img{transform:scale(0.3) translateX(110%);position:relative;z-index:9}.port-6.effect-2 .text-desc{transform:translateX(-100%);opacity:0;padding:40px 120px 20px 20px;transition:.6s}.port-6.effect-2:hover .text-desc{transform:translateX(0px);opacity:1}.port-6.effect-3 img{transition:.5s}.port-6.effect-3:hover img{transform:scale(0.3) translateY(-110%);position:relative;z-index:9}.port-6.effect-3 .text-desc{transform:translateY(100%);opacity:0;padding:85px 20px 10px;transition:.5s}.port-6.effect-3:hover .text-desc{transform:translateY(0px);opacity:1}.port-7{float:left;width:100%;position:relative;overflow:hidden;text-align:center;border:4px solid rgba(255,255,255,0.9);overflow:hidden}.port-7 .text-desc{opacity:0;transition:.5s;color:#000}.port-7.effect-1 img{transition:.5s;position:relative;width:100%;left:0}.port-7.effect-1:hover img{left:50%}.port-7.effect-1 .text-desc{transform:perspective(600px) rotateY(90deg);transform-origin:left center 0;width:50%;position:absolute;left:0;top:0;padding:18px 10px}.port-7.effect-1:hover .text-desc{opacity:1;transform:perspective(600px) rotateY(0deg);z-index:99}.port-7.effect-2 img{transition:.5s;position:relative;width:100%;top:0}.port-7.effect-2:hover img{top:50%}.port-7.effect-2 .text-desc{transform:perspective(600px) rotateX(90deg);transform-origin:top center 0;width:100%;position:absolute;left:0;top:0;height:50%;padding:5px 10px}.port-7.effect-2:hover .text-desc{opacity:1;transform:perspective(600px) rotateX(0deg);z-index:99}.port-7.effect-3 img{transition:.5s;position:relative;width:100%;right:0}.port-7.effect-3:hover img{right:50%}.port-7.effect-3 .text-desc{transform:perspective(600px) rotateY(-90deg);transform-origin:right center 0;width:50%;position:absolute;left:auto;right:0;top:0;padding:18px 10px}.port-7.effect-3:hover .text-desc{opacity:1;transform:perspective(600px) rotateY(0deg);z-index:99}.port-8{float:left;width:100%;position:relative;overflow:hidden;text-align:center;border:4px solid rgba(255,255,255,0.9);overflow:hidden}.port-8 .text-desc{opacity:0;transition:.5s;color:#000;padding:45px 20px 20px}.port-8.effect-1 img{transition:.5s}.port-8.effect-1:hover img{transform:scale(1.1)}.port-8.effect-1 .text-desc{left:0;position:absolute;top:0;width:100%;height:100%;transform:scale(0);backface-visibility:hidden}.port-8.effect-1:hover .text-desc{opacity:1;transform:scale(1);border-radius:20%}.port-8.effect-2 img{transition:.5s}.port-8.effect-2:hover img{transform:scale(1.1)}.port-8.effect-2 .text-desc{left:0;position:absolute;top:0;width:100%;height:100%;transform:scale(0);backface-visibility:hidden}.port-8.effect-2:hover .text-desc{opacity:1;transform:scale(1);border-radius:50% 0 50% 0}.port-8.effect-2 img{transition:.5s}.port-8.effect-2:hover img{transform:scale(1.1)}.port-8.effect-2 .text-desc{left:0;position:absolute;top:0;width:100%;height:100%;transform:scale(0);backface-visibility:hidden}.port-8.effect-2:hover .text-desc{opacity:1;transform:scale(1);border-radius:50% 0 50% 0}.port-8.effect-3 img{transition:.5s}.port-8.effect-3:hover img{transform:scale(1.1)}.port-8.effect-3 .text-desc{left:0;position:absolute;top:0;width:100%;height:100%;transform:scale(0);backface-visibility:hidden;background:none;padding:40px 70px 20px}.port-8.effect-3 .text-desc:before,.port-8.effect-3 .text-desc:after{background-color:#fff;border-radius:50% 50% 0 0;content:"";height:100%;left:50%;position:absolute;top:0;transform:rotate(-50deg);transform-origin:0 100% 0;width:50%;z-index:-1}.port-8.effect-3 .text-desc:after{left:0;transform:rotate(50deg);transform-origin:100% 100% 0}.port-8.effect-3:hover .text-desc{opacity:1;transform:scale(1)}@media only screen and (max-width: 1090px){.port-5.effect-1{z-index:19}}@media only screen and (max-width: 360px){.port-1 .text-desc,.port-1.effect-3:hover .text-desc,.port-3.effect-1 .text-desc,.port-3.effect-3 .text-desc,.port-4.effect-1 .text-desc,.port-4.effect-2 .text-desc,.port-4.effect-3 .text-desc,.port-8 .text-desc{padding:20px}.text-desc{padding:7px}.port-5.effect-1 .text-desc{padding:13px 20px 20px 90px}.port-5.effect-2 .text-desc{padding:10px}.port-5.effect-3 .text-desc{padding:16px 90px 20px 20px}.port-6.effect-1 .text-desc .btn,.port-6.effect-2 .text-desc .btn,.port-6.effect-3 .text-desc .btn,.port-7.effect-1 .text-desc .btn,.port-7.effect-2 .text-desc .btn,.port-7.effect-3 .text-desc .btn,.port-8.effect-3 .text-desc .btn{display:none}.port-6.effect-2 .text-desc{padding:20px 120px 20px 20px}.port-6.effect-3 .text-desc{padding:75px 20px 10px}.port-7.effect-1 .text-desc{padding:12px 10px}.port-8.effect-3 .text-desc{padding:28px 70px 20px}}i.desaturate{-webkit-filter:grayscale(100%);filter:grayscale(100%)}#source-button{position:absolute;top:0;right:0;z-index:100;font-weight:700}#source-button img{cursor:pointer;opacity:.7}#source-button img:hover{opacity:1}.build{background-image:url(../Images/build/build.png);background-repeat:no-repeat;display:block}.build-1{width:150px;height:150px;background-position:0 0}.build-14{width:150px;height:150px;background-position:-150px 0}.build-15{width:150px;height:150px;background-position:-300px 0}.build-16{width:150px;height:150px;background-position:-450px 0}.build-17{width:150px;height:150px;background-position:0 -150px}.build-18{width:150px;height:150px;background-position:-150px -150px}.build-19{width:150px;height:150px;background-position:-300px -150px}.build-2{width:150px;height:150px;background-position:-450px -150px}.build-20{width:150px;height:150px;background-position:0 -300px}.build-21{width:150px;height:150px;background-position:-150px -300px}.build-22{width:150px;height:150px;background-position:-300px -300px}.build-23{width:150px;height:150px;background-position:-450px -300px}.build-25{width:150px;height:150px;background-position:0 -450px}.build-3{width:150px;height:150px;background-position:-150px -450px}.build-4{width:150px;height:150px;background-position:-300px -450px}.build-5{width:150px;height:150px;background-position:-450px -450px}.lab{background-image:url(../Images/lab/lab.png);background-repeat:no-repeat;display:block}.lab-101{width:150px;height:150px;background-position:-5px -5px}.lab-102{width:150px;height:150px;background-position:-165px -5px}.lab-103{width:150px;height:150px;background-position:-325px -5px}.lab-104{width:150px;height:150px;background-position:-485px -5px}.lab-105{width:150px;height:150px;background-position:-5px -165px}.lab-106{width:150px;height:150px;background-position:-165px -165px}.lab-107{width:150px;height:150px;background-position:-325px -165px}.lab-108{width:150px;height:150px;background-position:-485px -165px}.lab-109{width:150px;height:150px;background-position:-5px -325px}.lab-110{width:150px;height:150px;background-position:-165px -325px}.lab-111{width:150px;height:150px;background-position:-325px -325px}.lab-112{width:150px;height:150px;background-position:-485px -325px}.lab-113{width:150px;height:150px;background-position:-5px -485px}.lab-114{width:150px;height:150px;background-position:-165px -485px}.lab-115{width:150px;height:150px;background-position:-325px -485px}.lab-116{width:150px;height:150px;background-position:-485px -485px}.lab-117{width:150px;height:150px;background-position:-645px -5px}.lab-118{width:150px;height:150px;background-position:-645px -165px}.lab-119{width:150px;height:150px;background-position:-645px -325px}.lab-120{width:150px;height:150px;background-position:-645px -485px}
+.module {
+    background-image:url(../Images/module/module.png);
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.module-201 {
+    width: 150px;
+    height: 150px;
+    background-position: 0 0;
+}
+
+.module-202 {
+    width: 150px;
+    height: 150px;
+    background-position: -150px 0;
+}
+
+.module-203 {
+    width: 150px;
+    height: 150px;
+    background-position: -300px 0;
+}
+
+.module-204 {
+    width: 150px;
+    height: 150px;
+    background-position: -450px 0;
+}
+
+.module-205 {
+    width: 150px;
+    height: 150px;
+    background-position: -600px 0;
+}
+
+.module-206 {
+    width: 150px;
+    height: 150px;
+    background-position: 0 -150px;
+}
+
+.module-207 {
+    width: 150px;
+    height: 150px;
+    background-position: -150px -150px;
+}
+
+.module-208 {
+    width: 150px;
+    height: 150px;
+    background-position: -300px -150px;
+}
+
+.module-209 {
+    width: 150px;
+    height: 150px;
+    background-position: -450px -150px;
+}
+
+.module-210 {
+    width: 150px;
+    height: 150px;
+    background-position: -600px -150px;
+}
+
+.module-211 {
+    width: 150px;
+    height: 150px;
+    background-position: 0 -300px;
+}
+
+.module-212 {
+    width: 150px;
+    height: 150px;
+    background-position: -150px -300px;
+}
+
+.module-213 {
+    width: 150px;
+    height: 150px;
+    background-position: -300px -300px;
+}
+
+.module-214 {
+    width: 150px;
+    height: 150px;
+    background-position: -450px -300px;
+}
+
+.module-215 {
+    width: 150px;
+    height: 150px;
+    background-position: -600px -300px;
+}
+
+.module-216 {
+    width: 150px;
+    height: 150px;
+    background-position: 0 -450px;
+}
+
+.module-217 {
+    width: 150px;
+    height: 150px;
+    background-position: -150px -450px;
+}
+
+.module-218 {
+    width: 150px;
+    height: 150px;
+    background-position: -300px -450px;
+}
+
+.module-219 {
+    width: 150px;
+    height: 150px;
+    background-position: -450px -450px;
+}
+
+.module-220 {
+    width: 150px;
+    height: 150px;
+    background-position: -600px -450px;
+}
+
+.module-221 {
+    width: 150px;
+    height: 150px;
+    background-position: 0 -600px;
+}
+
+.module-222 {
+    width: 150px;
+    height: 150px;
+    background-position: -150px -600px;
+}
+
+.module-223 {
+    width: 150px;
+    height: 150px;
+    background-position: -300px -600px;
+}
+
+.module-224 {
+    width: 150px;
+    height: 150px;
+    background-position: -450px -600px;
+}
+
+.module-225 {
+    width: 150px;
+    height: 150px;
+    background-position: -600px -600px;
+}
+
+.module-226 {
+    width: 150px;
+    height: 150px;
+    background-position: -750px 0;
+}
+
+.module-227 {
+    width: 150px;
+    height: 150px;
+    background-position: -750px -150px;
+}
+
+.module-228 {
+    width: 150px;
+    height: 150px;
+    background-position: -750px -300px;
+}
+
+.module-github {
+    width: 30px;
+    height: 30px;
+    background-position: -900px 0;
+}
+
+.module-gmail {
+    width: 30px;
+    height: 30px;
+    background-position: -900px -30px;
+}
+
+.module-linkedin {
+    width: 30px;
+    height: 30px;
+    background-position: -900px -60px;
+}
+
+.module-stackoverflow {
+    width: 30px;
+    height: 30px;
+    background-position: -900px -90px;
+}
+
+.module-tumblr {
+    width: 30px;
+    height: 30px;
+    background-position: -900px -120px;
+}
+
+.module-twitter {
+    width: 30px;
+    height: 30px;
+    background-position: -900px -150px;
+}

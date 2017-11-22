@@ -1,0 +1,660 @@
+/* Structure
+ * auteur : Le Système Solaire par Florian Valois
+ * Travail entièrement réalisé en CSS3
+ * http://florian-valois.com
+-------------------------------------------------------------- */
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-color: #02080d;
+    background-image: url('Images/fond.jpg');
+    background-repeat: no-repeat;
+    background-position: top center;
+    color:#fff;
+}
+
+/* Titre et Sous-Titres
+-------------------------------------------------------------- */
+#titre_site{
+    margin: auto;
+    width: 1000px;
+    text-align: center;
+}
+
+#sous_titre {
+    font-size: 26px;
+    color:#3872a2;
+    letter-spacing: 8px;
+    margin-bottom:10px;
+}
+
+#compatible {
+    font-size: 13px;
+    font-style: italic;
+    color:#3872a2; 
+}
+
+/* Système Solaire
+-------------------------------------------------------------- */
+
+#systeme_solaire {
+    margin: auto;
+    width: 800px;
+    height: 600px;
+}
+
+.orbite{
+	position: absolute;
+	border-radius: 50%;
+	border: 1px solid rgba(255, 255, 255, 0.2);
+    transition: 0.5s;
+    z-index: 0;
+}
+
+/* Soleil
+-------------------------------------------------------------- */
+
+#soleil {
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #f1e767; 
+    background: -moz-radial-gradient(center, ellipse cover,  #f1e767 0%, #fca728 100%); 
+    background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#f1e767), color-stop(100%,#fca728));
+    background: -webkit-radial-gradient(center, ellipse cover,  #f1e767 0%,#fca728 100%);
+    background: -o-radial-gradient(center, ellipse cover,  #f1e767 0%,#fca728 100%); 
+    background: -ms-radial-gradient(center, ellipse cover,  #f1e767 0%,#fca728 100%); 
+    background: radial-gradient(ellipse at center,  #f1e767 0%,#fca728 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#fca728',GradientType=1 ); 
+    -moz-box-shadow: 0px 0px 25px 0px #ffe240;
+    -webkit-box-shadow: 0px 0px 25px 0px #ffe240;
+    -o-box-shadow: 0px 0px 25px 0px #ffe240;
+    box-shadow: 0px 0px 25px 0px #ffe240;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#ffe240, Direction=NaN, Strength=25);
+    margin-top: 250px;
+    margin-left: 350px;
+    transition: 0.5s;
+}
+
+/* p1
+-------------------------------------------------------------- */
+
+#p1{
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin-top: 223.5px;
+    margin-left: 323.5px;
+}
+
+#planete_p1{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bababa;
+    -webkit-animation: orbite_p1 2.8s linear infinite;
+	animation: orbite_p1 2.8s linear infinite;
+    box-shadow: inset 0 3px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 70px;
+    margin-left: 70px;
+}
+
+    @-webkit-keyframes orbite_p1 {
+        from { -webkit-transform: rotate(180deg) translateY(-75px);}
+        to { -webkit-transform: rotate(-180deg) translateY(-75px);}
+    }
+
+    @keyframes orbite_p1 {
+        from { transform: rotate(180deg) translateY(-75px);}
+        to { transform: rotate(-180deg) translateY(-75px);}
+    }
+
+    @-moz-keyframes orbite_p1 {
+        from { -moz-transform: rotate(180deg) translateY(-75px);}
+        to { -moz-transform: rotate(-180deg) translateY(-75px);}
+    }
+
+/* p2
+-------------------------------------------------------------- */
+
+#p2{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    margin-top: 200px;
+    margin-left: 300px;
+}
+
+#planete_p2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #c4966b;
+    -webkit-animation: orbite_p2 7.2s linear infinite;
+	animation: orbite_p2 7.2s linear infinite;
+    box-shadow: inset 0 3px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 95px;
+    margin-left: 95px;
+}
+
+    @-webkit-keyframes orbite_p2 {
+        from { -webkit-transform: rotate(180deg) translateY(-100px);}
+        to { -webkit-transform: rotate(-180deg) translateY(-100px);}
+    }
+
+    @keyframes orbite_p2 {
+        from { transform: rotate(180deg) translateY(-100px);}
+        to { transform: rotate(-180deg) translateY(-100px);}
+    }
+
+    @-moz-keyframes orbite_p2 {
+        from { -moz-transform: rotate(180deg) translateY(-100px);}
+        to { -moz-transform: rotate(-180deg) translateY(-100px);}
+    }
+
+/* p3
+-------------------------------------------------------------- */
+
+#p3{
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    margin-top: 175px;
+    margin-left: 275px;
+}
+
+#planete_p3{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #499dff;
+    -webkit-animation: orbite_p3 12s linear infinite;
+	animation: orbite_p3 12s linear infinite;
+    box-shadow: inset 0 3px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 120px;
+    margin-left: 120px;
+}
+
+    @-webkit-keyframes orbite_p3 {
+        from { -webkit-transform: rotate(180deg) translateY(-125px);}
+        to { -webkit-transform: rotate(-180deg) translateY(-125px);}
+    }
+
+    @keyframes orbite_p3 {
+        from { transform: rotate(180deg) translateY(-125px);}
+        to { transform: rotate(-180deg) translateY(-125px);}
+    }
+
+    @-moz-keyframes orbite_p3 {
+        from { -moz-transform: rotate(180deg) translateY(-125px);}
+        to { -moz-transform: rotate(-180deg) translateY(-125px);}
+    }
+
+/* Lune
+-------------------------------------------------------------- */
+
+#lune{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: -6px;
+    margin-left: -6px;
+}
+
+#astre_lune{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #c7c7c7;
+    -webkit-animation: orbite_lune 1s linear infinite;
+	animation: orbite_lune 1s linear infinite;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+    @-webkit-keyframes orbite_lune {
+        from { -webkit-transform: rotate(-180deg) translateY(-11px);}
+        to { -webkit-transform: rotate(180deg) translateY(-11px);}
+    }
+
+    @keyframes orbite_lune {
+        from { transform: rotate(-180deg) translateY(-11px);}
+        to { transform: rotate(180deg) translateY(-11px);}
+    }
+
+    @-moz-keyframes orbite_lune {
+        from { -moz-transform: rotate(-180deg) translateY(-11px);}
+        to { -moz-transform: rotate(180deg) translateY(-11px);}
+    }
+	
+/* DEBRIS
+-------------------------------------------------------------- */
+
+#debris{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin-top: -6px;
+    margin-left: -6px;
+}
+
+#astre_debris{
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: #c7c7c7;
+    -webkit-animation: orbite_lune 1s linear infinite;
+	animation: orbite_lune 1s linear infinite;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 8px;
+    margin-left: 8px;
+}
+
+    @-webkit-keyframes orbite_debris {
+        from { -webkit-transform: rotate(-180deg) translateY(-11px);}
+        to { -webkit-transform: rotate(180deg) translateY(-11px);}
+    }
+
+    @keyframes orbite_debris {
+        from { transform: rotate(-180deg) translateY(-11px);}
+        to { transform: rotate(180deg) translateY(-11px);}
+    }
+
+    @-moz-keyframes orbite_debris {
+        from { -moz-transform: rotate(-180deg) translateY(-11px);}
+        to { -moz-transform: rotate(180deg) translateY(-11px);}
+    }
+
+/* p4
+-------------------------------------------------------------- */
+
+#p4{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-top: 150px;
+    margin-left: 250px;
+    z-index: 3;
+}
+
+#planete_p4{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #ff8341;
+    -webkit-animation: orbite_p4 22.5s linear infinite;
+	animation: orbite_p4 22.5s linear infinite;
+    box-shadow: inset 0 3px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 145px;
+    margin-left: 145px;
+}
+
+    @-webkit-keyframes orbite_p4 {
+        from { -webkit-transform: rotate(180deg) translateY(-150px);}
+        to { -webkit-transform: rotate(-180deg) translateY(-150px);}
+    }
+
+    @keyframes orbite_p4 {
+        from { transform: rotate(180deg) translateY(-150px);}
+        to { transform: rotate(-180deg) translateY(-150px);}
+    }
+
+    @-moz-keyframes orbite_p4 {
+        from { -moz-transform: rotate(180deg) translateY(-150px);}
+        to { -moz-transform: rotate(-180deg) translateY(-150px);}
+    }
+
+/* Astéroïdes
+-------------------------------------------------------------- */
+
+#ceinture_asteroides{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: url('Images/ceinture_asteroides.png') top center;
+    -webkit-animation: orbite_asteroides 80s linear infinite;
+	animation: orbite_asteroides 80s linear infinite;
+    margin-top: 126px;
+    margin-left: 227px;
+    z-index: 1;
+}
+
+    @-webkit-keyframes orbite_asteroides {
+        from { -webkit-transform: rotate(180deg);}
+        to { -webkit-transform: rotate(-180deg);}
+    }
+
+    @keyframes orbite_asteroides {
+        from { transform: rotate(180deg);}
+        to { transform: rotate(-180deg);}
+    }
+
+    @-moz-keyframes orbite_asteroides {
+        from { -moz-transform: rotate(180deg);}
+        to { -moz-transform: rotate(-180deg);}
+    }
+
+
+#ceinture_asteroides1{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    background: url('Images/ceinture_asteroides.png') bottom center;
+    opacity: 0;
+    -webkit-transition: opacity 0.5s;
+    -moz-transition:    opacity 0.5s;
+    -o-transition:      opacity 0.5s;
+    -webkit-animation: orbite_asteroides 80s linear infinite;
+	animation: orbite_asteroides 80s linear infinite;
+    margin-top: 126px;
+    margin-left: 227px;
+    z-index: 1;
+}
+
+#info_ceinture_asteroides:hover ~ #ceinture_asteroides1{
+    opacity: 1;
+}
+
+
+
+/* p5
+-------------------------------------------------------------- */
+
+#p5{
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    margin-top: 125px;
+    margin-left: 225px;
+    z-index: 2;
+}
+
+#planete_p5{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #e53b26;
+    -webkit-animation: orbite_p5 142.3s linear infinite;
+	animation: orbite_p5 142.3s linear infinite;
+    box-shadow: inset 0 3px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 170px;
+    margin-left: 170px;
+}
+
+    @-webkit-keyframes orbite_p5 {
+        from { -webkit-transform: rotate(180deg) translateY(-175px);}
+        to { -webkit-transform: rotate(-180deg) translateY(-175px);}
+    }
+
+    @keyframes orbite_p5 {
+        from { transform: rotate(180deg) translateY(-175px);}
+        to { transform: rotate(-180deg) translateY(-175px);}
+    }
+
+    @-moz-keyframes orbite_p5 {
+        from { -moz-transform: rotate(180deg) translateY(-175px);}
+        to { -moz-transform: rotate(-180deg) translateY(-175px);}
+    }
+
+/* p6
+-------------------------------------------------------------- */
+
+#p6{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+
+#planete_p6{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #eadb6c;
+    -webkit-animation: orbite_p6 353.5s linear infinite;
+	animation: orbite_p6 353.5s linear infinite;
+    box-shadow: inset 0 3px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 195px;
+    margin-left: 195px;
+}
+
+    @-webkit-keyframes orbite_p6 {
+        from { -webkit-transform: rotate(180deg) translateY(-200px);}
+        to { -webkit-transform: rotate(-180deg) translateY(-200px);}
+    }
+
+    @keyframes orbite_p6 {
+        from { transform: rotate(180deg) translateY(-200px);}
+        to { transform: rotate(-180deg) translateY(-200px);}
+    }
+
+    @-moz-keyframes orbite_p6 {
+        from { -moz-transform: rotate(180deg) translateY(-200px);}
+        to { -moz-transform: rotate(-180deg) translateY(-200px);}
+    }
+
+#anneau_p6{
+    width: 9px;
+    height: 9px;
+    border-radius: 8px;
+    background: none repeat scroll 0% 0% transparent;
+    border: 2.5px solid #5A4E34;
+    transform: skewY(50deg);
+    margin-top: -1.3px;
+    margin-left: -1.3px;
+}
+
+/* p7
+-------------------------------------------------------------- */
+
+#p7{
+    position: absolute;
+    width: 450px;
+    height: 450px;
+    margin-top: 75px;
+    margin-left: 175px;
+}
+
+#planete_p7{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #80e2ea;
+    -webkit-animation: orbite_p7 1008.2s linear infinite;
+	animation: orbite_p7 1008.2s linear infinite;
+    box-shadow: inset 0 3px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 220px;
+    margin-left: 220px;
+}
+
+    @-webkit-keyframes orbite_p7 {
+        from { -webkit-transform: rotate(180deg) translateY(-225px);}
+        to { -webkit-transform: rotate(-180deg) translateY(-225px);}
+    }
+
+    @keyframes orbite_p7 {
+        from { transform: rotate(180deg) translateY(-225px);}
+        to { transform: rotate(-180deg) translateY(-225px);}
+    }
+
+    @-moz-keyframes orbite_p7 {
+        from { -moz-transform: rotate(180deg) translateY(-225px);}
+        to { -moz-transform: rotate(-180deg) translateY(-225px);}
+    }
+
+#anneau_p7{
+    width: 9px;
+    height: 9px;
+    border-radius: 8px;
+    background: none repeat scroll 0% 0% transparent;
+    border: 2.5px solid #868686;
+    transform: skewY(50deg);
+    margin-top: -1.3px;
+    margin-left: -1.3px;
+}
+
+/* p8
+-------------------------------------------------------------- */
+
+#p8{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    margin-top: 50px;
+    margin-left: 150px;
+}
+
+#planete_p8{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #1038ba;
+    -webkit-animation: orbite_p8 1977.4s linear infinite;
+	animation: orbite_p8 1977.4s linear infinite;
+    box-shadow: inset 0 3px 1px rgba(0, 0, 0, 0.4);
+    margin-top: 245px;
+    margin-left: 245px;
+}
+
+    @-webkit-keyframes orbite_p8 {
+        from { -webkit-transform: rotate(180deg) translateY(-250px);}
+        to { -webkit-transform: rotate(-180deg) translateY(-250px);}
+    }
+
+    @keyframes orbite_p8 {
+        from { transform: rotate(180deg) translateY(-250px);}
+        to { transform: rotate(-180deg) translateY(-250px);}
+    }
+
+    @-moz-keyframes orbite_p8 {
+        from { -moz-transform: rotate(180deg) translateY(-250px);}
+        to { -moz-transform: rotate(-180deg) translateY(-250px);}
+    }
+
+/* Informations Planètes
+-------------------------------------------------------------- */
+
+.titre_info{
+    position: absolute;
+    cursor: pointer;
+    font-size: 15px;
+    color: #386077;
+    transition: 0.5s;
+}
+
+.titre_info:hover{
+    color: rgb(159, 41, 15);
+    font-size: 19px;
+    transition: 0.5s;
+}
+
+/* Info Planète */
+#PositionV{margin-top: -5px;padding-top: -5px;margin-left: 0px;cursor:pointer;}
+#PositionH{margin-top: -5px;padding-top: -5px;margin-left: 0px;cursor:pointer;}
+#info_p1{margin-top: 50px;margin-left: 800px;}
+#info_p2{margin-top: 75px;margin-left: 800px;}
+#info_p3{margin-top: 100px;margin-left: 800px;}
+#info_p4{margin-top: 125px;margin-left: 800px;}
+#info_p5{margin-top: 150px;margin-left: 800px;}
+#info_p6{margin-top: 175px;margin-left: 800px;}
+#info_p7{margin-top: 200px;margin-left: 800px;}
+#info_p8{margin-top: 225px;margin-left: 800px;}
+/* Info Astre */
+#info_soleil{margin-top: 300px;margin-left: 800px;}
+#info_lune{margin-top: 325px;margin-left: 800px;}
+#info_debris{margin-top: 325px;margin-left: 800px;}
+#info_ceinture_asteroides{margin-top: 350px;margin-left: 800px;}
+
+/* Info Planète */
+#info_p1:hover ~ #p1.orbite,
+#info_p2:hover ~ #p2.orbite,
+#info_p3:hover ~ #p3.orbite,
+#info_p4:hover ~ #p4.orbite,
+#info_p5:hover ~ #p5.orbite,
+#info_p6:hover ~ #p6.orbite,
+#info_p7:hover ~ #p7.orbite,
+#info_p8:hover ~ #p8.orbite,
+/* Info Astre */
+#info_lune:hover ~ #p3 #planete_p3 #lune.orbite{
+    border: 1px solid rgb(255, 226, 64);
+    transition: 0.5s;
+}
+
+/* Info Astre */
+#info_debris:hover ~ #p3 #planete_p3 #debris.orbite{
+    border: 1px solid rgb(255, 226, 64);
+    transition: 0.5s;
+}
+
+#info_soleil:hover ~ #soleil{
+    height: 110px;
+    width: 110px;
+    margin-top: 245px;
+    margin-left: 345px;
+    transition: 0.5s;
+}
+
+/* Cadres Informations Planètes
+-------------------------------------------------------------- */
+
+/* Cadre Planète */
+#cadre_p1,
+#cadre_p2,
+#cadre_p3,
+#cadre_p4,
+#cadre_p5,
+#cadre_p6,
+#cadre_p7,
+#cadre_p8,
+/* Cadre Astre */
+#cadre_soleil,
+#cadre_lune,
+#cadre_debris,
+#cadre_ceinture_asteroides{
+    position: absolute;
+    width:300px;
+    padding:10px;
+    background-color: #071924;
+    border: 1px solid #24485d;
+    border-radius: 3px;
+    color:#3a5d72;
+    font-size:13px;
+    margin-left: -350px;
+    transition: all 0.4s;
+    opacity: 0;
+}
+
+/* Info Planète */
+#info_p1:hover ~ #cadre_p1,
+#info_p2:hover ~ #cadre_p2,
+#info_p3:hover ~ #cadre_p3,
+#info_p4:hover ~ #cadre_p4,
+#info_p5:hover ~ #cadre_p5,
+#info_p6:hover ~ #cadre_p6,
+#info_p7:hover ~ #cadre_p7,
+#info_p8:hover ~ #cadre_p8,
+/* Info Astre */
+#info_soleil:hover ~ #cadre_soleil,
+#info_lune:hover ~ #cadre_lune,
+#info_debris:hover ~ #cadre_debris,
+#info_ceinture_asteroides:hover ~ #cadre_ceinture_asteroides{
+    opacity: 1;
+    margin-left: -250px;
+    transition: all 0.4s;
+}
